@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="240e075b-2781-42e2-9ad8-9225bb58a3ce" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1w9rEDmIlycgiZam3rUUgrsWlP2" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\CSSDemo\悬浮玻璃风登录卡片\css" />
+      <recent name="E:\Project\CSSDemo\悬浮玻璃风登录卡片" />
+      <recent name="E:\Project\CSSDemo\悬浮玻璃风登录卡片\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\CSSDemo" />
+      <recent name="E:\Project\CSSDemo\星巴克\images" />
+      <recent name="E:\Project\CSSDemo\卡片式网页\img" />
+      <recent name="E:\Project\CSSDemo\色彩波动" />
+      <recent name="E:\Project\CSSDemo\视差滚动2.0\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="240e075b-2781-42e2-9ad8-9225bb58a3ce" name="默认的" comment="" />
+      <created>1627881532301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627881532301</updated>
+      <workItem from="1628041359040" duration="3542000" />
+      <workItem from="1628140323073" duration="48000" />
+      <workItem from="1628991899857" duration="73000" />
+      <workItem from="1628992097209" duration="10644000" />
+      <workItem from="1629010160652" duration="1108000" />
+      <workItem from="1629012569568" duration="3250000" />
+      <workItem from="1629073618055" duration="3441000" />
+      <workItem from="1629097556261" duration="374000" />
+      <workItem from="1629194648516" duration="3758000" />
+      <workItem from="1629208411990" duration="358000" />
+      <workItem from="1629210384824" duration="2131000" />
+      <workItem from="1629246551671" duration="4475000" />
+      <workItem from="1629253557952" duration="276000" />
+      <workItem from="1629254611130" duration="3535000" />
+      <workItem from="1629447351520" duration="6411000" />
+      <workItem from="1629598284893" duration="4602000" />
+      <workItem from="1629622504022" duration="2518000" />
+      <workItem from="1629720216136" duration="1269000" />
+      <workItem from="1629791469183" duration="6699000" />
+      <workItem from="1629798368325" duration="184000" />
+      <workItem from="1629798596336" duration="571000" />
+      <workItem from="1629804798168" duration="1150000" />
+      <workItem from="1629815833646" duration="207000" />
+      <workItem from="1629816594038" duration="36000" />
+      <workItem from="1629816655142" duration="151000" />
+      <workItem from="1629853270661" duration="165000" />
+      <workItem from="1629853516512" duration="208000" />
+      <workItem from="1629882205099" duration="747000" />
+      <workItem from="1630124775401" duration="619000" />
+      <workItem from="1630125459911" duration="86000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="853" y="206" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627881689957">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="853" y="206" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1627881689957" />
+    <state x="505" y="105" key="SettingsEditor" timestamp="1628993324005">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="505" y="105" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1628993324005" />
+    <state x="731" y="0" width="549" height="816" key="find.popup" timestamp="1629798529426">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="731" y="0" width="549" height="816" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1629798529426" />
+    <state x="360" y="0" key="new project wizard" timestamp="1627956514531">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="360" y="0" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1627956514531" />
+    <state x="654" y="138" width="672" height="678" key="search.everywhere.popup" timestamp="1629451149691">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="654" y="138" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1629451149691" />
+  </component>
+</project>

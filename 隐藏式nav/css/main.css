@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#menu-overlay{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    overflow-y: auto;
+    transform: scale(0);
+    transition: 0.5s;
+}
+#menu-overlay.active{
+    transform: scale(1);
+}
+#menu-overlay ul li{
+    list-style: none;
+    text-align: center;
+}
+#menu-overlay ul{
+    position: relative;
+}
+#menu-overlay ul li a {
+    text-decoration: navajowhite;
+    position: relative;
+    font-size: 3.5em;
+    padding: 10px 10px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#menu-overlay  ul li a:before{
+    /*  向右收缩 */
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: lightcyan;
+    /* transform属性允许你旋转，缩放，倾斜或平移给定元素。 */
+    /* translateY在页面里面垂直移动元素 */
+    /* scaleX() CSS 函数将每个元素点的横坐标修改为一个常数因子，除了该比例因子为1，在这种情况下，函数是身份变换。 缩放不是各向同性的，并且元素的角度不保守。是一个缩放的效果 */
+    transform: translateY(-50%) scaleX(0);
+    /* 更改一个元素变形的原点。 */
+    transform-origin: right;
+    /*  duration | timing function  */
+    transition: 0.5s transform;
+}
+#menu-overlay  ul li a:hover:before{
+    /*  向右拉开 */
+    transform: translateY(-50%) scaleX(1);
+    transform-origin: left;
+    transition: 0.5s transform;
+}
+#toggleIcon{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: lightblue;
+    z-index: 10000;
+    /* 在鼠标指针悬停在元素上时显示相应样式 */
+    cursor: pointer;
+}
+#toggleIcon.active{
+    background: white;
+}

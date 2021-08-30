@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>悬浮玻璃风卡片</title>
+        <!--------    总体样式      ---------->
+    <link rel="stylesheet" href="css/style.css">
+        <!--------------    icons效果css    ------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="" id="form">
+            <h3>Login</h3>
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="username" />
+            <i class="fas fa-at"></i>
+            <input type="email" placeholder="email" />
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="password" />
+            <input type="submit" value="login">
+        </form>
+    </div>
+
+<!--    <script>-->
+<!--        const form = document.getElementById('form');-->
+
+<!--        form.addEventListener('mousemove', (e) =>{-->
+
+<!--                var x = (window.innerWidth / 2 - e.pageX) / 14;-->
+<!--                var y = (window.innerHeight / 2 - e.pageY) / 14;-->
+<!--                form.style.transform = 'rotateX('+x+'deg) rotateY('+y+'deg)';-->
+<!--        });-->
+
+<!--        form.addEventListener('mouseleave',function (){-->
+<!--            form.style.transform = 'rotateX(0deg) rotateY(0deg)';-->
+<!--        });-->
+<!--    </script>-->
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector("#form"), {
+            max: 15,
+            glare: true,
+            reverse: true,
+            "max-glare": 0.5,
+            speed: 400
+        });
+        VanillaTilt.init(document.querySelectorAll("#form"));
+    </script>
+</body>
+</html>

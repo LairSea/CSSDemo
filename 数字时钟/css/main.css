@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #4e366e;
+}
+.container{
+    width: 560px;
+    height: 320px;
+    /**/
+    align-items: center;
+    margin: 100px auto;
+    display: flex;
+    /**/
+    flex-direction: column;
+    background-color: #f5f1f1;
+    border-radius: 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 85px;
+}
+.menu div{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 45px;
+}
+.menu div span{
+    cursor: pointer;
+    border-radius: 5px;
+}
+.running>span{
+    display: block;
+    line-height: 30px;
+    width: 50px;
+    height: 30px;
+    color: white;
+    background-color: #0157d9;
+}
+.paused >span {
+    line-height: 30px;
+    display: block;
+    width: 50px;
+    height: 30px;
+    color: white;
+    background-color: #ec105d;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #1a5e91;
+    box-shadow: 0 0 40px rgba(0,0,0,0.6);
+}
+.clock-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60px;
+    margin: 0 30px;
+}
+.clock-item div{
+    font-size: 12px;
+    color: #ccc;
+}
+.clock-item span{
+    font-size: 60px;
+    color: white;
+    /**/
+    letter-spacing: 5px;
+}
+.toast{
+    position: absolute;
+    top: calc(50% + 13px);
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: #ec105d;
+    border-radius: 8px;
+    opacity: 0;
+    /*为了不影响交互，让提示框进行穿透设置*/
+    pointer-events: none;
+}

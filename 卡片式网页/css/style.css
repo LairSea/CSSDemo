@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(#2b1055,#de9975);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    /**/
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    /**/
+    text-transform: uppercase;
+    /**/
+    letter-spacing: 2px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active{
+    background: #ffffff;
+    color: #2b1055;
+}
+.sit_container{
+    margin: 9rem auto;
+    max-width: calc(100% - 80px);
+}
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px,1fr)) ;
+    gap: 2rem;
+}
+.article-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.article-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+.article-card{
+    background: white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.article-card:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 20px 0 rgba(1, 1, 9, 0.2);
+}
+.article-content .card-category{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: #6b82a7;
+    display: block;
+    text-decoration: none;
+}
+.article-content .card-title{
+    margin: 1rem 0;
+    color: #22447b;
+}
+.article-content .card-excerpt{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #6b82a7;
+    margin: 0;
+}
+@media screen and (min-width: 768px) {
+    .sit_container{
+        max-width: 608px;
+    }
+    .article-card{
+        display: grid;
+        grid-template-rows: 220px 1fr;
+    }
+}
+@media screen and (min-width: 1280px){
+     .sit_container{
+         min-width: 1156px;
+     }
+}
